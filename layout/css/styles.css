@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.w-100 {
+  min-width: 100px !important;
+}
+.w-140 {
+  min-width: 140px !important;
+}
+.w-200 {
+  min-width: 200px !important;
+}
+.w-260 {
+  min-width: 260px !important;
+}
+.truncate-scroll {
+  overflow-x: auto;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -webkit-overflow-scrolling: touch; /* hỗ trợ trên mobile */
+}
+table th {
+  background-color: #bffcff !important;
+  z-index: 10;
+  position: sticky;
+  top: 0;
+  /* border: 1px solid #cfcfcf !important; */
+}
+table th,
+table td {
+  /* border: 1px solid #cfcfcf; */
+  font-size: 12px !important;
+}
+
+.limitLineCss {
+  /* margin: "0 5px" !important; */
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+/*  */
+.percent-style {
+  margin: 0 10px;
+  background: linear-gradient(180deg, #73ff88, #018e16, #60ec75, #bbfcc5);
+  color: #fff;
+}
+
+/* Màu cho từng trạng thái */
+.status-hoan-thanh {
+  background-color: #fff;
+}
+.status-cho-sua {
+  background-color: #ff89e3;
+  font-weight: 500;
+}
+
+.status-cho-khach {
+  background-color: #ff89e3;
+  font-weight: 500;
+}
+.status-cho-test {
+  background-color: #ffee2f;
+  font-weight: 500;
+}
+.status-huy {
+  font-style: italic;
+  text-decoration: line-through;
+}
+.status-chua-update {
+  background-color: #f7ba79;
+  font-weight: 500;
+}
+.status-cham-soc {
+  background-color: #88ff79;
+  font-weight: 500;
+}
+.status-default {
+  background-color: #ffffff; /* trắng */
+  font-weight: 500;
+}
